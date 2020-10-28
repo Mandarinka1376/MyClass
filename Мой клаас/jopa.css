@@ -1,0 +1,85 @@
+#site{
+    font-family: Times, sans-serif;
+    background-color: rgb(255, 247, 225);
+    overflow-x: hidden;
+    position: relative;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+}
+#main{
+    border: 1px solid grey;
+    background: white;
+    padding: 35px 40px 0px;
+    width: auto;
+}
+.name span{
+	color: red;
+}
+.widget-content ul{
+	 list-style: none;
+	 padding: 0px;
+}
+.selected{
+    display: inline-block;
+    padding: 0px;
+}
+.widget-content li{
+    border: 1px solid orange;
+    background: orange;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-right: 1px;
+    padding: .65em 1.5em;
+}
+.widget-content a{
+    text-decoration: none;
+    color: black;
+}
+.widget-content li:hover {
+    background: green;
+    border: 1px solid green; 
+}
+#doc_time{
+	font-size: 20px;
+}
+#base{
+	font-size: 20px;
+}
+.left{
+	float: left;
+	width: 70%;
+}
+.news{
+	text-align: center;
+	width: 80%;
+}
+.news img{
+	width: 70%;
+}
+.right{
+	width: 30%;
+	float: right;
+	text-align: center;
+}
+.logo img{
+	margin-right:auto; 
+	margin-left:auto;
+	width: 30%;
+}
+.teacher{
+	font-size: 16px;
+}
+.teacher img{
+	width: 55%;
+}
+.teacher a{
+	text-decoration: none;
+	color: black;
+}
+.list p{
+
+}
+.end{
+	clear: left;
+}
