@@ -23,6 +23,7 @@ obj_doc_time.innerHTML=time_wr;
 wr_hours();
 setInterval("wr_hours();",1000);
 
+
 var slides = document.querySelectorAll('#slider .slide');
 var currentSlide = 0;
 var slideInterval = setInterval(nextSlide,2000);
